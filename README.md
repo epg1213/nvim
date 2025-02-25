@@ -24,7 +24,7 @@ to get neovim running with the associated config, run
 
 ```bash
 
-DIRECTORY="~/.config"
+DIRECTORY=~/.config
 if [ ! -d "$DIRECTORY" ]; then
   mkdir $DIRECTORY
 fi
