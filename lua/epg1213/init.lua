@@ -25,5 +25,8 @@ vim.keymap.set("n", "<C-s>", ":w<cr>")
 vim.keymap.set("i", "<C-x>", "<Esc>:q<cr>")
 vim.keymap.set("n", "<C-x>", ":q<cr>")
 
+vim.keymap.set("n", "<C-b>", ":%!xxd<cr>")
+vim.keymap.set("n", "<C-n>", ":%!xxd -r<cr>")
+
 -- ok
 
