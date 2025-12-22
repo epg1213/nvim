@@ -33,10 +33,10 @@ vim.api.nvim_create_autocmd('LspAttach', {
 -- These are example language servers. 
 vim.lsp.enable('gleam')
 vim.lsp.enable('ocamllsp')
-vim.lsp.enable('rust_analyzer')
-vim.lsp.enable('clangd')
-vim.lsp.enable('pyright')
-vim.lsp.enable('html')
+vim.lsp.enable('rust_analyzer')--:MasonInstall rust-analyzer
+vim.lsp.enable('clangd')--:MasonInstall clangd
+vim.lsp.enable('pyright')--:MasonInstall pyright
+vim.lsp.enable('html')--:MasonInstall html-lsp
 
 local cmp = require('cmp')
 
