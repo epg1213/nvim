@@ -35,6 +35,7 @@ vim.lsp.enable('gleam')
 vim.lsp.enable('ocamllsp')
 vim.lsp.enable('rust_analyzer')
 vim.lsp.enable('clangd')
+vim.lsp.enable('pyright')
 
 local cmp = require('cmp')
 
